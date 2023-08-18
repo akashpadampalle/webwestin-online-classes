@@ -1,0 +1,76 @@
+#register-page {
+  background-color: antiquewhite;
+  min-height: 100vh;
+}
+#register-page header {
+  padding: 4px 12px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#register-page header img {
+  height: 48px;
+}
+#register-page header span {
+  padding-left: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: xx-large;
+  color: rgb(1, 41, 94);
+}
+#register-page main {
+  display: flex;
+  padding: 40px 60px;
+  justify-content: center;
+}
+#register-page main form {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.623);
+  width: 400px;
+}
+#register-page main form h2 {
+  padding-bottom: 30px;
+  color: rgb(33, 34, 34);
+}
+#register-page main form div {
+  padding-bottom: 30px;
+}
+#register-page main form div select {
+  margin-left: 20px;
+  padding: 5px 10px;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+  outline: none;
+}
+#register-page main form div select:focus {
+  border-bottom: 1px solid rgb(6, 6, 238);
+}
+#register-page main form div input {
+  border: none;
+  border-bottom: 1px solid black;
+  margin-left: 20px;
+  outline: none;
+}
+#register-page main form div input:focus {
+  border-bottom: 1px solid rgb(6, 6, 238);
+}
+#register-page main form div input[type=submit] {
+  margin-left: 0px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: aquamarine;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+#register-page main form div input[type=submit]:hover {
+  background-color: orange;
+  box-shadow: 0px 0px 20px orange;
+}
+#register-page main form p {
+  color: gray;
+}

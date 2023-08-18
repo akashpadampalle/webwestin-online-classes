@@ -1,0 +1,52 @@
+<link rel="stylesheet" href="/css/register.css">
+<div id="register-page">
+    <header>
+        <img src="/img/webwestin-logo.png" alt="logo">
+        <span>Webwestin.com</span>
+    </header>
+
+    <main>
+
+        <form action="/users/register" method="post">
+            <h2>Welcome, Learner!</h2>
+            <div>
+                <label for="name">name</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div>
+                <label for="course">Course</label>
+                <select name="course" id="course" required>
+                    <!-- marathi options -->
+                    <option value="Marathi-Beginner">Marathi-Beginner</option>
+                    <option value="Marathi-Intermediate">Marathi-Intermediate</option>
+                    <option value="Marathi-Advance">Marathi-Advance</option>
+                    <!-- hindi options -->
+                    <option value="Hindi-Beginner">Hindi-Beginner</option>
+                    <option value="Hindi-Intermediate">Hindi-Intermediate</option>
+                    <option value="Hindi-Advance">Hindi-Advance</option>
+                    <!-- English options -->
+                    <option value="English-Beginner">English-Beginner</option>
+                    <option value="English-Intermediate">English-Intermediate</option>
+                    <option value="English-Advance">English-Advance</option>
+                </select>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+                <label for="pass">Pass</label>
+                <input type="password" name="password" id="pass" required>
+            </div>
+            <div>
+                <label for="cpass">Confirm Pass</label>
+                <input type="password" name="cpassword" id="cpass" required>
+            </div>
+            <div>
+                <input type="submit" value="Register">
+            </div>
+            <p>By continuing with login, you agree to Webwestin's <a href="">Terms & Conditions.</a></p>
+        </form>
+
+    </main>
+</div>

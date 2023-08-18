@@ -1,0 +1,89 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 12px;
+    background-color: aquamarine;
+    height: 70px;
+    .left-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            height: 48px;
+        }
+
+        span{
+            padding-left: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: xx-large;
+            color: rgb(1, 41, 94);
+        }
+
+    }
+
+    .right-section{
+
+        display: flex;
+        align-items: center;
+        
+        ul{
+            display: flex;
+            list-style: none;
+            align-items: center;
+
+            li {
+                padding: 4px 12px;
+            }
+        }
+
+    }
+}
+
+
+main {
+    background: url('http://localhost:8000/img/texture2.jpg');
+    background-size: cover;
+    padding: 40px 60px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .details{
+
+        padding: 0px 20px;
+
+        h1{
+            color: rgb(24, 36, 61);
+            font-size: 3rem;
+            padding-bottom: 40px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            padding-bottom: 40px;
+        }
+
+        .buttons{
+            a{
+                background-color: aquamarine;
+                font-size: 1.2rem;
+                padding: 8px;
+                border-radius: 5px;
+                text-decoration: none;
+                color: black;
+                margin: 10px 10px 10px 0px;
+                box-shadow: 0px 0px 10px rgb(129, 129, 129);
+                transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+
+                &:hover{
+                    box-shadow: 0px 0px 20px orange;
+                    background-color: orange;
+                }
+
+            }
+        }
+    }
+}

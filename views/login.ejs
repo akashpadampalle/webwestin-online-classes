@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="/css/login.css">
+<div id="login-page">
+    <header>
+        <img src="/img/webwestin-logo.png" alt="logo">
+        <span>Webwestin.com</span>
+    </header>
+
+    <main>
+
+        <form action="/users/login" method="post">
+            <h2>Welcome, Learner!</h2>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+                <label for="pass">Pass</label>
+                <input type="password" name="password" id="pass" required>
+            </div>
+            <div>
+                <input type="submit" value="Login">
+            </div>
+            <p>By continuing with login, you agree to Webwestin's <a href="">Terms & Conditions.</a></p>
+        </form>
+
+    </main>
+</div>
